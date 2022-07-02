@@ -9,7 +9,7 @@ function SubTotal() {
             renderText={(value) => (
                 <>
                     <p>
-                        SubTotal(0 items): <strong>0</strong>
+                        Subtotal(0 items): <strong>0</strong>
                     </p>
                     <small className='subtotal_gift'>
                         <input type="checkbox" />This order contains a gift
@@ -22,6 +22,7 @@ function SubTotal() {
             thousandSeparator={true}
             prefix={"₹"}
         />
+        <button>Proceed to Checkout</button>
     </div>
   )
 }
